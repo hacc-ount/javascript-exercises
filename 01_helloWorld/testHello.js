@@ -1,5 +1,5 @@
 const testHello = function() {
-  return ''
+  return 'Testing, hello.. hello!'
 };
 
 module.exports = testHello;
