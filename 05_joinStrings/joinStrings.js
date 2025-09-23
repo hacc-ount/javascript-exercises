@@ -14,7 +14,10 @@ const lastName = `Stevenson`;
 const thisYear = 1965;
 const birthYear = 1947;
 
-let greeting = `Hello! My name is ` + firstName + ` ` + lastName + ` and I am ` + (thisYear - birthYear) + ` years old.`;
+const fullName = firstName + ` ` + lastName;
+const age = thisYear - birthYear;
+
+let greeting = `Hello! My name is ` + fullName + ` and I am ` + age + ` years old.`;
 
 
 
