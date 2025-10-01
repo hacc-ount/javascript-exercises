@@ -26,8 +26,16 @@ const sum = function(arr) {
   }
 };
 
-const multiply = function() {
-
+const multiply = function(arr) {
+  let total = arr[0];
+  for (const item of arr) {
+    if (item !== arr[0]) {
+      total *= item;
+    } else {
+      
+    }
+  }
+  return total;
 };
 
 const power = function() {
