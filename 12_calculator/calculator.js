@@ -14,8 +14,16 @@ const subtract = function(a, ...values) {
   return total;
 };
 
-const sum = function() {
-	
+const sum = function(arr) {
+	if (arr == []) {
+    return arr;
+  } else {
+    let total = 0;
+    for (const item of arr) {
+    total += item;
+  }
+  return total;
+  }
 };
 
 const multiply = function() {
